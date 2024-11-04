@@ -25,6 +25,8 @@ namespace PhoneBook
             }
         }
 
+
+        //TODO - Sätt denna metoden i PhoneBookOperations
         public void GetAllPhoneNumbers()
         {
             List<Contact> contacts = PhoneBookOperations.GetContactsFromJSON("phonebook.json");
